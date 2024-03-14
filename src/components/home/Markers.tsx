@@ -29,7 +29,7 @@ const Markers = () => {
       url: isSelected ? '/icon-active.png' : '/icon.png',
       size: new naver.maps.Size(64, 64),
       origin: new naver.maps.Point(0, 0),
-      scaledSize: new naver.maps.Size(44, 44),
+      scaledSize: new naver.maps.Size(54, 54),
     };
   };
 
@@ -61,7 +61,7 @@ const Markers = () => {
           map={map}
           coordinates={currentInfo.coordinates}
           icon={changeMarkerIcon(true)}
-          key={99999999}
+          key={9999999999}
           onClick={() => {
             // 보관된 좌표를 지워라
             clearCurrentInfo();

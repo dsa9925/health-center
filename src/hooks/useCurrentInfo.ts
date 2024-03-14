@@ -11,7 +11,7 @@ export const useCurrentInfo = () => {
     mutate(CURRENT_INFO_KEY, info);
   }, []);
 
-  // 저장된 좌표정보를 SWR 에 지우기
+  // 저장된 좌표정를 SWR 에 지우기
   const clearCurrentInfo = useCallback(() => {
     // SWR 초기화
     mutate(CURRENT_INFO_KEY, null);
