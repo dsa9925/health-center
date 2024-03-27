@@ -17,6 +17,10 @@ export default function RootLayout({
           name="naver-site-verification"
           content="b9f76115609d4cbcef92a69b26590aecec2984c4"
         />
+        <link
+          rel="canonical"
+          href="https://health-center-rose.vercel.app"
+        ></link>
       </head>
       <body>{children}</body>
     </html>

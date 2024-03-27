@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://health-center-rose.vercel.app
+
+# Sitemaps
+Sitemap: https://health-center-rose.vercel.app/sitemap.xml
